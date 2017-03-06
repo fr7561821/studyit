@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/views/public/assets/jQuery/jQuery.js"></script>
+    <script src="/views/public/assets/jQuery-cookie/jQuery.cookie.js"></script>
+</head>
+<body>
+<script>
+    $.cookie("name","chc",{path:"/1",expires:new Date("2017-03-09")});
+
+    $.cookie("age",3);
+;
+//    document.cookie = "name=chc";
+//    document.cookie = "age=3";
+//    document.cookie = "size=big";
+//    var arr = document.cookie.split(";");
+//
+//    var obj = {};
+//    for (var i = 0; i < arr.length; i++) {
+//        var temp = arr[i].split("=");
+//        obj[temp[0].trim()]  = temp[1];
+//    }
+//    console.log(obj.name);
+</script>
+</body>
+</html>
